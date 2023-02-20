@@ -1,0 +1,40 @@
+{
+  "name": "openraod",
+  "version": "1.0.0",
+  "description": "OpenRoad prototype",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PIMIYA/OpenRaod.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "postgresql",
+    "rest",
+    "api",
+    "web3"
+  ],
+  "author": "chenghsienyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PIMIYA/OpenRaod/issues"
+  },
+  "homepage": "https://github.com/PIMIYA/OpenRaod#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.9.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.0"
+  }
+}
